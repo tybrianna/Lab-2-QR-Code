@@ -5,17 +5,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
+  width: 300px;
+  height: 475px;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  justify-content: center;
+    margin: 100px auto;
 
 }
 
+.container h5 {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  margin-inline-end: 20px;
+    margin-inline-start: 20px;
+}
+
+.container h2 {
+  font-size: 20px;
+  color: hsl(220, 15%, 15%);
+    margin-inline-end: 20px;
+    margin-inline-start: 20px;
+}
 img {
-  width: 75%;
-  height: 100%;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  border-radius: 15px;
+  width: 275px;
+  border-radius: 10px; 
 }
 
 body {
